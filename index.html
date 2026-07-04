@@ -134,6 +134,20 @@
   .convite .quote em{font-style:italic; color:var(--terracotta)}
   .curl{display:block; margin:22px auto 0; color:var(--gold)}
 
+  /* ---------- FOTO (polaroid) ---------- */
+  .photo-block{padding-top:10px}
+  .polaroid{
+    width:min(76%,300px); margin:0 auto; background:var(--white-warm);
+    padding:12px 12px 0; border-radius:8px; box-shadow:var(--shadow);
+    transform:rotate(-2.4deg); transition:transform .55s var(--ease);
+  }
+  .polaroid:hover{transform:rotate(0)}
+  .polaroid img{width:100%; display:block; border-radius:4px; aspect-ratio:3/4; object-fit:cover}
+  .polaroid figcaption{
+    font-family:"Fraunces",serif; font-style:italic; text-align:center;
+    color:var(--ink-soft); padding:12px 6px 14px; font-size:1.02rem;
+  }
+
   /* ---------- DETALHES ---------- */
   .cards{display:grid; gap:16px; margin-top:26px}
   .card{
@@ -273,6 +287,16 @@
       <p class="quote">Sol, <em>piscininha</em>, <em>cerveja bem fresca</em> e <em>churrasco</em> ao fim da tarde — o primeiro dia do último da década.</p>
       <p class="quote">A manhã é para curar a noite de sábado… Lá para as <em>15h</em>, apareçam, para juntos brindarmos ao meu novo ano que chega.</p>
       <svg class="curl" width="90" height="16" viewBox="0 0 90 16" fill="none" aria-hidden="true"><path d="M1 8c14-9 28-9 44 0s30 9 44 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </div>
+  </section>
+
+  <!-- ===================== FOTO ===================== -->
+  <section class="block photo-block">
+    <div class="wrap reveal">
+      <figure class="polaroid">
+        <img src="foto-andreia.jpeg" alt="A Andreia, a aniversariante" loading="lazy" width="1200" height="1600">
+        <figcaption>a aniversariante ☀️</figcaption>
+      </figure>
     </div>
   </section>
 
