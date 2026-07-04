@@ -15,7 +15,7 @@ serviço gratuito **FormSubmit** (nada de servidores próprios).
 | `.nojekyll` | Faz o GitHub Pages servir os ficheiros tal e qual |
 
 ## Como as confirmações chegam ao email
-O formulário envia para `andreia.morris@gmail.com` via **FormSubmit** (endpoint AJAX).
+O formulário envia para o email da Andreia (definido no `index.html`) via **FormSubmit** (endpoint AJAX).
 
 ⚠️ **Passo único de ativação:** na **primeira** confirmação enviada, o FormSubmit
 manda um email à Andreia com o assunto *"Confirm your email"* — basta ela clicar
@@ -46,5 +46,5 @@ automaticamente à caixa de entrada, com nome, presença, nº de pessoas e mensa
 ## Alterar depois
 - **Data / hora / morada:** procurar `12 de julho` e `2026-07-12T15:00:00+01:00` no `index.html`.
 - **Texto do convite:** bloco `<p class="quote">`.
-- **Email de destino:** variável `_u` no `<script>` (`["andreia.morris","gmail.com"]`).
+- **Email de destino:** variável `_u` no `<script>` do `index.html`.
 - **Trocar o vídeo:** substituir `convite-andreia.mp4` (manter o nome).
