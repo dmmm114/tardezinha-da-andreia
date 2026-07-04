@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Anos da Andreia · 12 de julho</title>
+<meta name="description" content="Domingo, tarde de sol, piscininha e cerveja. Anos da Andreia Morris Mendes — 12 de julho, em Paredes. Confirma a tua presença.">
+<meta name="theme-color" content="#E0785A">
+
+<!-- Partilha (WhatsApp / redes) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Anos da Andreia · 12 de julho ☀️">
+<meta property="og:description" content="Domingo, tarde de sol, piscininha e cerveja. Vem dar graças a uma década massa — confirma a tua presença.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500;1,9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --cream:#FBF3E7; --cream-2:#F8E9D6; --sand:#F1DABD;
+    --terracotta:#C05A34; --terracotta-deep:#9E3F22;
+    --amber:#E7A138; --gold:#F2C14E; --rose:#E0785A;
+    --pool:#2E7D9A; --pool-light:#57A9C2;
+    --ink:#40291C; --ink-soft:#6E5546; --white-warm:#FFFBF5;
+    --shadow: 0 22px 50px -22px rgba(120,58,30,.45);
+    --shadow-soft: 0 12px 34px -18px rgba(120,58,30,.35);
+    --ease: cubic-bezier(.22,.7,.24,1);
+    --maxw: 640px;
+  }
+
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+  body{
+    margin:0; color:var(--ink); background:var(--cream);
+    font-family:"Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    font-size:17px; line-height:1.6; letter-spacing:.1px;
+    overflow-x:hidden;
+    background-image:
+      radial-gradient(120% 60% at 50% -8%, rgba(242,193,78,.28), transparent 60%),
+      linear-gradient(180deg, var(--cream) 0%, var(--cream-2) 45%, var(--cream) 100%);
+    background-attachment:fixed;
+  }
+  h1,h2,h3{font-family:"Fraunces", Georgia, serif; font-weight:600; line-height:1.08; margin:0}
+  p{margin:0}
+  a{color:var(--pool); text-decoration:none}
+  img,video{max-width:100%; display:block}
+
+  /* ---------- layout ---------- */
+  .wrap{width:100%; max-width:var(--maxw); margin:0 auto; padding:0 22px}
+  section{position:relative}
+
+  /* ---------- reveal on scroll ---------- */
+  .reveal{opacity:0; transform:translateY(26px); transition:opacity .9s var(--ease), transform .9s var(--ease)}
+  .reveal.in{opacity:1; transform:none}
+
+  /* ---------- HERO ---------- */
+  .hero{
+    min-height:100svh; display:flex; flex-direction:column; align-items:center; justify-content:center;
+    text-align:center; padding:64px 22px 92px; position:relative; overflow:hidden;
+    color:var(--white-warm);
+    background:
+      radial-gradient(58% 42% at 50% 82%, rgba(255,236,178,.95), rgba(242,193,78,.35) 45%, transparent 72%),
+      linear-gradient(180deg, #C7563A 0%, #E0785A 34%, #EA9A55 66%, #F2C14E 100%);
+  }
+  .sun{
+    position:absolute; left:50%; bottom:12%; width:min(78vw,420px); aspect-ratio:1; transform:translateX(-50%);
+    background:radial-gradient(circle, rgba(255,247,214,.98) 0%, rgba(255,225,150,.75) 34%, rgba(255,205,110,0) 68%);
+    border-radius:50%; filter:blur(2px); animation:sunpulse 7s var(--ease) infinite; z-index:0;
+  }
+  @keyframes sunpulse{0%,100%{transform:translateX(-50%) scale(1); opacity:.92} 50%{transform:translateX(-50%) scale(1.06); opacity:1}}
+  .hero .wrap{position:relative; z-index:2}
+  .kicker{
+    font-size:.82rem; letter-spacing:.32em; text-transform:uppercase; font-weight:600;
+    opacity:.95; margin-bottom:18px; display:inline-flex; gap:.6em; align-items:center;
+  }
+  .kicker::before,.kicker::after{content:""; width:26px; height:1px; background:currentColor; opacity:.6}
+  .eyebrow{font-family:"Fraunces",serif; font-style:italic; font-weight:500; font-size:clamp(1.1rem,4.5vw,1.5rem); opacity:.96}
+  .hero h1{
+    font-size:clamp(2.9rem, 12vw, 5.1rem); margin:.06em 0 .18em; letter-spacing:-.01em;
+    text-shadow:0 3px 26px rgba(120,40,20,.28);
+  }
+  .hero .sub{max-width:22ch; margin:0 auto; font-size:clamp(1rem,3.6vw,1.18rem); opacity:.96}
+  .datepill{
+    margin-top:30px; display:inline-flex; align-items:center; gap:14px;
+    background:rgba(255,251,245,.16); border:1px solid rgba(255,251,245,.5);
+    backdrop-filter:blur(6px); -webkit-backdrop-filter:blur(6px);
+    padding:11px 20px; border-radius:100px; font-weight:600; letter-spacing:.04em; font-size:.95rem;
+  }
+  .datepill b{font-family:"Fraunces",serif; font-weight:600}
+  .datepill .dot{width:5px;height:5px;border-radius:50%;background:currentColor;opacity:.55}
+  .scrollcue{position:absolute; left:50%; bottom:26px; transform:translateX(-50%); z-index:2; opacity:.9; animation:bob 2.4s ease-in-out infinite}
+  .scrollcue span{display:block; font-size:.72rem; letter-spacing:.28em; text-transform:uppercase; margin-bottom:6px}
+  .scrollcue svg{margin:0 auto}
+  @keyframes bob{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(7px)}}
+
+  /* ---------- generic block ---------- */
+  .block{padding:74px 0}
+  .tag{font-size:.78rem; letter-spacing:.26em; text-transform:uppercase; color:var(--terracotta); font-weight:600; margin-bottom:14px; text-align:center}
+  .block h2{font-size:clamp(1.7rem,6.5vw,2.35rem); text-align:center; color:var(--terracotta-deep)}
+
+  /* ---------- VIDEO ---------- */
+  .videowrap{
+    margin:26px auto 0; max-width:400px; position:relative; border-radius:26px; overflow:hidden;
+    box-shadow:var(--shadow); background:#2a1a12; aspect-ratio:9/16;
+    border:1px solid rgba(255,255,255,.5);
+  }
+  .videowrap video{width:100%; height:100%; object-fit:cover; background:#2a1a12}
+  .playover{
+    position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:16px;
+    cursor:pointer; color:#fff; z-index:3; border:0; width:100%; font-family:inherit;
+    background:linear-gradient(180deg, rgba(158,63,34,.15), rgba(64,41,28,.55));
+    transition:opacity .5s var(--ease);
+  }
+  .playbtn{
+    width:76px; height:76px; border-radius:50%; display:grid; place-items:center;
+    background:rgba(255,251,245,.92); box-shadow:0 10px 30px -8px rgba(0,0,0,.5);
+    transition:transform .4s var(--ease);
+  }
+  .playover:hover .playbtn{transform:scale(1.08)}
+  .playbtn svg{margin-left:4px}
+  .playhint{font-size:.9rem; font-weight:500; letter-spacing:.02em; text-shadow:0 2px 10px rgba(0,0,0,.5)}
+  .videowrap.playing .playover{opacity:0; pointer-events:none}
+  .videocap{text-align:center; color:var(--ink-soft); font-size:.9rem; margin-top:14px; font-style:italic; font-family:"Fraunces",serif}
+
+  /* ---------- CONVITE (texto) ---------- */
+  .convite{text-align:center}
+  .convite .quote{
+    font-family:"Fraunces",serif; font-size:clamp(1.35rem,5.4vw,1.72rem); line-height:1.5; font-weight:500;
+    color:var(--ink); max-width:20ch; margin:8px auto 0; text-wrap:balance;
+  }
+  .convite .quote em{font-style:italic; color:var(--terracotta)}
+  .curl{display:block; margin:22px auto 0; color:var(--gold)}
+
+  /* ---------- DETALHES ---------- */
+  .cards{display:grid; gap:16px; margin-top:26px}
+  .card{
+    background:var(--white-warm); border:1px solid rgba(192,90,52,.16); border-radius:20px;
+    padding:22px 22px; box-shadow:var(--shadow-soft); display:flex; gap:16px; align-items:flex-start;
+    transition:transform .5s var(--ease), box-shadow .5s var(--ease);
+  }
+  .card:hover{transform:translateY(-3px); box-shadow:var(--shadow)}
+  .card .ic{
+    flex:0 0 auto; width:46px; height:46px; border-radius:14px; display:grid; place-items:center; font-size:1.35rem;
+    background:linear-gradient(145deg, var(--gold), var(--rose)); box-shadow:0 8px 18px -8px rgba(224,120,90,.7);
+  }
+  .card h3{font-size:1.06rem; color:var(--terracotta-deep); margin-bottom:3px; font-weight:600}
+  .card p{color:var(--ink-soft); font-size:.98rem}
+  .card a{font-weight:600}
+  .card a:hover{text-decoration:underline}
+
+  /* countdown */
+  .count{display:flex; justify-content:center; gap:12px; margin:30px auto 0; flex-wrap:wrap}
+  .count .u{
+    background:var(--white-warm); border:1px solid rgba(192,90,52,.16); border-radius:16px; box-shadow:var(--shadow-soft);
+    min-width:76px; padding:14px 8px; text-align:center;
+  }
+  .count .n{font-family:"Fraunces",serif; font-weight:600; font-size:1.9rem; color:var(--terracotta); line-height:1; font-variant-numeric:tabular-nums}
+  .count .l{font-size:.66rem; letter-spacing:.16em; text-transform:uppercase; color:var(--ink-soft); margin-top:7px}
+  .count.done{font-family:"Fraunces",serif; font-size:1.4rem; color:var(--terracotta); font-style:italic}
+
+  /* ---------- RSVP ---------- */
+  .rsvp{background:
+      radial-gradient(80% 60% at 50% 0%, rgba(242,193,78,.16), transparent 60%);
+    border-top:1px solid rgba(192,90,52,.12); border-bottom:1px solid rgba(192,90,52,.12);
+  }
+  form{margin-top:24px; display:grid; gap:18px}
+  .field label.lbl{display:block; font-weight:600; color:var(--terracotta-deep); font-size:.95rem; margin-bottom:8px}
+  input[type=text], input[type=number], textarea{
+    width:100%; font:inherit; color:var(--ink); background:var(--white-warm);
+    border:1.5px solid rgba(192,90,52,.22); border-radius:14px; padding:14px 16px; transition:border-color .25s, box-shadow .25s;
+  }
+  input:focus, textarea:focus{outline:none; border-color:var(--rose); box-shadow:0 0 0 4px rgba(224,120,90,.15)}
+  textarea{resize:vertical; min-height:96px}
+  .choices{display:grid; gap:10px}
+  .choice{position:relative}
+  .choice input{position:absolute; opacity:0; inset:0; cursor:pointer}
+  .choice span{
+    display:flex; align-items:center; gap:12px; padding:14px 16px; border-radius:14px; cursor:pointer;
+    background:var(--white-warm); border:1.5px solid rgba(192,90,52,.22); font-weight:500; transition:all .25s var(--ease);
+  }
+  .choice span::before{content:""; width:20px; height:20px; border-radius:50%; border:2px solid rgba(192,90,52,.4); flex:0 0 auto; transition:all .2s}
+  .choice input:checked + span{border-color:var(--rose); background:linear-gradient(180deg,#fff,rgba(242,193,78,.14)); box-shadow:var(--shadow-soft)}
+  .choice input:checked + span::before{border-color:var(--rose); background:radial-gradient(circle, var(--rose) 42%, transparent 46%)}
+  .choice input:focus-visible + span{box-shadow:0 0 0 4px rgba(224,120,90,.15)}
+  .hp{position:absolute; left:-9999px; opacity:0; height:0; width:0; overflow:hidden}
+  .submit{
+    font:600 1.05rem "Inter",sans-serif; color:#fff; border:0; cursor:pointer; border-radius:100px; padding:16px 24px;
+    background:linear-gradient(135deg, var(--terracotta) 0%, var(--rose) 55%, var(--amber) 100%);
+    background-size:180% 180%; box-shadow:0 14px 30px -12px rgba(192,90,52,.7);
+    transition:transform .3s var(--ease), background-position .6s var(--ease), box-shadow .3s;
+  }
+  .submit:hover{transform:translateY(-2px); background-position:100% 0; box-shadow:0 18px 36px -12px rgba(192,90,52,.8)}
+  .submit:active{transform:translateY(0)}
+  .submit[disabled]{opacity:.65; cursor:default; transform:none}
+  .formnote{font-size:.82rem; color:var(--ink-soft); text-align:center; margin-top:-4px}
+
+  /* success */
+  .done-card{
+    text-align:center; padding:40px 24px; background:var(--white-warm); border-radius:24px;
+    border:1px solid rgba(192,90,52,.16); box-shadow:var(--shadow); margin-top:24px;
+    animation:pop .6s var(--ease);
+  }
+  @keyframes pop{from{opacity:0; transform:scale(.94)}to{opacity:1; transform:none}}
+  .done-card .burst{width:88px;height:88px;margin:0 auto 14px; border-radius:50%;
+    background:radial-gradient(circle, var(--gold), var(--rose)); display:grid; place-items:center; font-size:2.4rem;
+    box-shadow:0 0 0 0 rgba(242,193,78,.6); animation:ring 1.6s var(--ease) 1}
+  @keyframes ring{0%{box-shadow:0 0 0 0 rgba(242,193,78,.55)}100%{box-shadow:0 0 0 34px rgba(242,193,78,0)}}
+  .done-card h3{font-size:1.7rem; color:var(--terracotta-deep); margin-bottom:8px}
+  .done-card p{color:var(--ink-soft)}
+  .err{color:var(--terracotta-deep); font-size:.9rem; text-align:center; min-height:1.2em; font-weight:500}
+  [hidden]{display:none !important}
+
+  /* ---------- FOOTER ---------- */
+  footer{text-align:center; padding:52px 22px 60px; color:var(--ink-soft)}
+  footer .sig{font-family:"Fraunces",serif; font-style:italic; font-size:1.5rem; color:var(--terracotta); margin-bottom:10px}
+  footer .addr{font-size:.9rem}
+  footer .heart{margin-top:18px; font-size:.8rem; opacity:.8}
+
+  @media (min-width:560px){ .cards{grid-template-columns:1fr 1fr} .card.wide{grid-column:1 / -1} }
+
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto}
+    .reveal{opacity:1; transform:none; transition:none}
+    .sun,.scrollcue,.done-card,.done-card .burst{animation:none}
+  }
+</style>
+</head>
+<body>
+
+  <!-- ===================== HERO ===================== -->
+  <header class="hero">
+    <div class="sun" aria-hidden="true"></div>
+    <div class="wrap">
+      <span class="kicker">É festa</span>
+      <div class="eyebrow">Anos da</div>
+      <h1>Andreia<br>Morris Mendes</h1>
+      <p class="sub">Uma década massa — e o arranque ao último dos&nbsp;30 ☀️</p>
+      <div class="datepill">
+        <b>DOM · 12 JUL 2026</b><span class="dot"></span>Paredes<span class="dot"></span>15h
+      </div>
+    </div>
+    <div class="scrollcue" aria-hidden="true">
+      <span>desliza</span>
+      <svg width="22" height="12" viewBox="0 0 22 12" fill="none"><path d="M1 1l10 9 10-9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+  </header>
+
+  <!-- ===================== VÍDEO ===================== -->
+  <section class="block">
+    <div class="wrap reveal">
+      <div class="tag">Um recado da aniversariante</div>
+      <h2>Carrega ▶ e ouve</h2>
+      <div class="videowrap" id="vwrap">
+        <video id="vid" playsinline preload="metadata" src="convite-andreia.mp4"></video>
+        <button class="playover" id="playover" type="button" aria-label="Reproduzir vídeo do convite">
+          <span class="playbtn" aria-hidden="true">
+            <svg width="26" height="30" viewBox="0 0 26 30" fill="none"><path d="M25 15L1 29V1l24 14z" fill="#C05A34"/></svg>
+          </span>
+          <span class="playhint">Toca para ouvir o convite</span>
+        </button>
+      </div>
+      <p class="videocap">…sim, tens de ver até ao fim.</p>
+    </div>
+  </section>
+
+  <!-- ===================== CONVITE ===================== -->
+  <section class="block convite">
+    <div class="wrap reveal">
+      <div class="tag">O convite</div>
+      <p class="quote">
+        Domingo, tarde de sol, <em>piscininha e cerveja</em>. Para dar graças a uma
+        <em>década massa</em> — e comigo darem o arranque ao último dos&nbsp;30, sempre em altas.
+        A manhã é para curar o sábado… mas lá para as <em>15h</em>, quando quiserem.
+      </p>
+      <svg class="curl" width="90" height="16" viewBox="0 0 90 16" fill="none" aria-hidden="true"><path d="M1 8c14-9 28-9 44 0s30 9 44 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </div>
+  </section>
+
+  <!-- ===================== DETALHES ===================== -->
+  <section class="block">
+    <div class="wrap reveal">
+      <div class="tag">Os detalhes</div>
+      <h2>O essencial</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="ic" aria-hidden="true">📅</div>
+          <div><h3>Quando</h3><p>Domingo, 12 de julho de 2026</p></div>
+        </div>
+        <div class="card">
+          <div class="ic" aria-hidden="true">🕒</div>
+          <div><h3>A que horas</h3><p>A partir das 15h — quando quiseres</p></div>
+        </div>
+        <div class="card wide">
+          <div class="ic" aria-hidden="true">📍</div>
+          <div>
+            <h3>Onde</h3>
+            <p>Casa dos pais · Rua Quinta de Carregoso, 56 · 4580-294 Paredes<br>
+            <a href="https://www.google.com/maps/search/?api=1&query=Rua+Quinta+de+Carregoso+56+4580-294+Paredes" target="_blank" rel="noopener">Ver no mapa →</a></p>
+          </div>
+        </div>
+        <div class="card wide">
+          <div class="ic" aria-hidden="true">🩳</div>
+          <div><h3>O que trazer</h3><p>Fato de banho, boa disposição e sede de festa. Da piscina e das cervejas tratamos nós.</p></div>
+        </div>
+      </div>
+
+      <div class="count" id="count" aria-label="Contagem decrescente para a festa"></div>
+    </div>
+  </section>
+
+  <!-- ===================== RSVP ===================== -->
+  <section class="block rsvp">
+    <div class="wrap reveal">
+      <div class="tag">Confirma a tua presença</div>
+      <h2>Vens?</h2>
+
+      <form id="rsvp" novalidate>
+        <div class="field">
+          <label class="lbl" for="nome">Como te chamas?</label>
+          <input type="text" id="nome" name="Nome" autocomplete="name" placeholder="O teu nome" required>
+        </div>
+
+        <div class="field">
+          <span class="lbl">Contamos contigo?</span>
+          <div class="choices" role="radiogroup" aria-label="Vais à festa?">
+            <label class="choice"><input type="radio" name="Presença" value="Sim, conta comigo 🎉" required><span>Sim, conta comigo 🎉</span></label>
+            <label class="choice"><input type="radio" name="Presença" value="Ainda não sei 🤔"><span>Ainda não sei 🤔</span></label>
+            <label class="choice"><input type="radio" name="Presença" value="Não vou conseguir 😢"><span>Não vou conseguir 😢</span></label>
+          </div>
+        </div>
+
+        <div class="field" id="pessoasField">
+          <label class="lbl" for="pessoas">Quantos são, contigo incluído?</label>
+          <input type="number" id="pessoas" name="Pessoas" min="1" max="20" value="1" inputmode="numeric">
+        </div>
+
+        <div class="field">
+          <label class="lbl" for="msg">Um recado para a Andreia <span style="font-weight:400;color:var(--ink-soft)">(opcional)</span></label>
+          <textarea id="msg" name="Mensagem" placeholder="Deixa aqui um miminho, uma piada ou o que vais levar…"></textarea>
+        </div>
+
+        <!-- honeypot anti-spam (não preencher) -->
+        <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <button class="submit" type="submit" id="submitBtn">Enviar confirmação ☀️</button>
+        <p class="err" id="err" role="alert"></p>
+        <p class="formnote">A tua resposta vai direta para a Andreia.</p>
+      </form>
+
+      <div class="done-card" id="doneCard" hidden>
+        <div class="burst" aria-hidden="true">🎉</div>
+        <h3>Confirmação enviada!</h3>
+        <p id="doneMsg">Obrigada — até dia 12 de julho. Traz o fato de banho! ☀️</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer>
+    <div class="sig">Até já! ☀️</div>
+    <p class="addr">Casa dos pais · Rua Quinta de Carregoso, 56 · Paredes<br>Domingo, 12 de julho de 2026 · a partir das 15h</p>
+    <p class="heart">feito com ❤️ para a Andreia</p>
+  </footer>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- reveal on scroll ---------- */
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target); } });
+  }, {threshold:.14, rootMargin:"0px 0px -8% 0px"});
+  document.querySelectorAll(".reveal").forEach(function(el){ io.observe(el); });
+
+  /* ---------- vídeo: tocar com som ao carregar ---------- */
+  var vwrap = document.getElementById("vwrap");
+  var vid = document.getElementById("vid");
+  var over = document.getElementById("playover");
+  over.addEventListener("click", function(){
+    vwrap.classList.add("playing");
+    vid.setAttribute("controls","controls");
+    vid.muted = false; vid.volume = 1;
+    var p = vid.play();
+    if(p && p.catch){ p.catch(function(){ vid.muted = true; vid.play(); }); }
+  });
+  vid.addEventListener("pause", function(){ if(vid.currentTime>0 && !vid.ended) return; });
+
+  /* ---------- contador ---------- */
+  var target = new Date("2026-07-12T15:00:00+01:00").getTime();
+  var box = document.getElementById("count");
+  function pad(n){ return (n<10?"0":"")+n; }
+  function unit(n,l){ return '<div class="u"><div class="n">'+n+'</div><div class="l">'+l+'</div></div>'; }
+  function tick(){
+    var diff = target - Date.now();
+    if(diff <= 0){ box.className = "count done"; box.textContent = "É hoje! A piscina está à tua espera ☀️"; clearInterval(timer); return; }
+    var d = Math.floor(diff/86400000);
+    var h = Math.floor(diff%86400000/3600000);
+    var m = Math.floor(diff%3600000/60000);
+    var s = Math.floor(diff%60000/1000);
+    box.innerHTML = unit(d,"dias")+unit(pad(h),"horas")+unit(pad(m),"min")+unit(pad(s),"seg");
+  }
+  tick(); var timer = setInterval(tick, 1000);
+
+  /* ---------- RSVP: esconder nº de pessoas se "Não vou" ---------- */
+  var pessoasField = document.getElementById("pessoasField");
+  document.querySelectorAll('input[name="Presença"]').forEach(function(r){
+    r.addEventListener("change", function(){
+      var nao = r.value.indexOf("Não") === 0 && r.checked;
+      pessoasField.hidden = nao;
+    });
+  });
+
+  /* ---------- RSVP: envio via FormSubmit (AJAX) ---------- */
+  // e-mail montado em partes para evitar recolha ingénua por robôs de spam
+  var _u = ["andreia.morris","gmail.com"];
+  var ENDPOINT = "https://formsubmit.co/ajax/" + _u[0] + "@" + _u[1];
+
+  var form = document.getElementById("rsvp");
+  var btn = document.getElementById("submitBtn");
+  var err = document.getElementById("err");
+  var doneCard = document.getElementById("doneCard");
+  var doneMsg = document.getElementById("doneMsg");
+
+  form.addEventListener("submit", function(ev){
+    ev.preventDefault();
+    err.textContent = "";
+
+    var nome = form.Nome.value.trim();
+    var presenca = form.querySelector('input[name="Presença"]:checked');
+    if(!nome){ err.textContent = "Diz-me só o teu nome 🙂"; form.Nome.focus(); return; }
+    if(!presenca){ err.textContent = "Escolhe uma opção: vens, talvez ou não."; return; }
+
+    var payload = {
+      Nome: nome,
+      "Presença": presenca.value,
+      Pessoas: pessoasField.hidden ? "—" : form.Pessoas.value,
+      Mensagem: form.Mensagem.value.trim() || "—",
+      _subject: "🎉 Nova confirmação — Anos da Andreia (12 jul)",
+      _template: "table",
+      _captcha: "false"
+    };
+
+    btn.disabled = true; btn.textContent = "A enviar…";
+
+    fetch(ENDPOINT, {
+      method:"POST",
+      headers:{ "Content-Type":"application/json", "Accept":"application/json" },
+      body: JSON.stringify(payload)
+    })
+    .then(function(r){ return r.json().catch(function(){ return {}; }).then(function(j){ return {ok:r.ok, j:j}; }); })
+    .then(function(res){
+      if(res.ok){
+        if(presenca.value.indexOf("Não") === 0){
+          doneMsg.textContent = "Que pena! Fica para a próxima — obrigada por avisares. ❤️";
+        } else if(presenca.value.indexOf("Ainda") === 0){
+          doneMsg.textContent = "Fica anotado! Quando souberes, volta cá. Esperamos por ti ☀️";
+        } else {
+          doneMsg.textContent = "Obrigada — até dia 12 de julho. Traz o fato de banho! ☀️";
+        }
+        form.hidden = true;
+        doneCard.hidden = false;
+        doneCard.scrollIntoView({behavior:"smooth", block:"center"});
+      } else {
+        throw new Error("falhou");
+      }
+    })
+    .catch(function(){
+      btn.disabled = false; btn.textContent = "Enviar confirmação ☀️";
+      err.textContent = "Ups, não deu para enviar. Tenta outra vez ou avisa a Andreia diretamente.";
+    });
+  });
+})();
+</script>
+</body>
+</html>
