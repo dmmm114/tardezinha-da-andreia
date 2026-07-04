@@ -473,7 +473,7 @@
     })
     .then(function(r){ return r.json().catch(function(){ return {}; }).then(function(j){ return {ok:r.ok, j:j}; }); })
     .then(function(res){
-      if(res.ok){
+      if(res.ok && res.j && String(res.j.success) === "true"){
         if(presenca.value.indexOf("Não") === 0){
           doneMsg.textContent = "Que pena! Fica para a próxima — obrigada por avisares. ❤️";
         } else if(presenca.value.indexOf("Ainda") === 0){
